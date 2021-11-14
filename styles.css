@@ -1,0 +1,221 @@
+*{
+  
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: normal 16px 'Roboto', sans-serif; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: gray;
+}
+
+h2 {
+  font-size: 30px;
+}
+.avatar {
+  width: 350px;
+  height: 250px;
+  border-radius: 50px;
+  box-shadow: 11px 0px 15px 6px rgba(0, 0, 0, 0.25);
+}
+.info {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+@media (max-width:700px){
+  .info{
+    display: block;
+    text-align: center;
+
+  }
+
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 15px;
+
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* letter-spacing: 2px;   */
+  word-spacing: 10px;
+}
+
+/* Box Model */
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 40px;
+}
+/* .social {
+  background: pink;
+  padding: 15px 50px 15px 5px;
+  margin: 5px;
+
+  border: 5px solid red;
+  border-bottom-style: dotted;
+  border-right-color: blueviolet;
+  border-top-width: 15px;
+}
+.box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: red 4px solid;
+  box-sizing: border-box;
+} */
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.list{
+  padding: 0 20px;
+  
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+  }
+  .table  {
+    width: 100%;
+  }
+.table td{
+  padding-bottom: 15px;
+}
+.table td:nth-child(2), 
+.table td:nth-child(3){
+  color: #86898f;
+}
+/* .table tr:nth-child(){
+  background: red;
+} */
+
+.link-list {
+  list-style: none;
+  padding: 0;  
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom:1px solid #ccc ;  
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  font-weight: bold;
+  padding: 15px 0 10px;
+  outline:none;
+  font-family:inherit ;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+  
+}
+.row > .form-group:last-child{
+  margin-right: 0;
+}
+.btn  {
+  background:#111;
+  padding:15px 20px;
+  color: white;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+
+/* position */
+
+/* .position {
+  position: relative;
+  border: 5px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+
+}
+
+/* .box{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  
+  /* top: 50px;
+  left: 0; */
+  /* width: 100%;
+  height: 50px;
+  background: lightcoral; */ 
